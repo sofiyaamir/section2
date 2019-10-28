@@ -1,0 +1,91 @@
+body {
+width: 800px;
+margin: 100px auto;
+
+}
+
+.polygon
+{
+  clip-path: polygon(25% 0, 25% 100%, 100% 53%);
+}
+
+u {
+  text-decoration: underline;
+
+  text-decoration-color: #00918e;
+}
+
+/* Bordered form */
+form {
+ border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+ width: 30%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+ background-color: #00918e;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 30%;
+}
+
+
+
+
+
+/* Add padding to containers */
+.container {
+ padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+ float: right;
+ padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 50px) {
+ span.psw {
+   display: block;
+   float: right;
+ }
+
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: right;
+   word-spacing: 10px;
+}
